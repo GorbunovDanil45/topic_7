@@ -9,5 +9,6 @@ while divisor * divisor <= number:
         new_divisor += [divisor]
     else:
         divisor += 1
-
+if number > 1:
+    new_divisor += [number]
 print(*new_divisor, sep=" ")
